@@ -1,0 +1,687 @@
+:root{
+    --verde-agua: #42dca3;
+}
+@media all and (min-width: 0px) {
+    /*******Mobile*******/
+    html{
+        scroll-behavior: smooth;
+    }
+    html, body{
+        overflow-x: hidden; 
+    }
+    .nav-link, ul, li, a{
+        padding-left: 0; padding-right: 0;
+    }
+    body{
+        font-family: 'Cabin', sans-serif;
+    }
+    body header{
+        /**background-image: url("../imagenes/intro-bg.jpg");**/
+        background-size: cover;
+        background-position: bottom;
+        background-color: black;
+    }
+    .menu{
+        background-color: none;
+    }
+    .menu a{
+        padding-left: 10%;
+    }
+    .menu button{
+        margin-right: 10%;
+    }
+    .header-container section div i{
+        font-size: 50px;
+    }
+    /***---------NAVBAR STYLE-------***/
+    /**PABLOROSES (NAV)**/
+    .ROSESnav{
+        padding-left: 10%;
+    }
+    .ROSESnav a{
+        font-weight: 500;
+    }
+    /**NAVBAR DROP DOWN**/
+    .header-container nav div ul li a {
+        font-weight: 500;
+    }
+    /***------------------------------***/
+
+    /***-------------MONTE------------***/
+    .monte{
+        background-color: black;
+        color: white;
+    }
+    .monte div{
+        margin-right: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .monte h2{
+        padding-top: 250px;
+        padding-left: 0px;
+        padding-right: 100px;
+    }
+    .monte div h2{
+        font-size: 85px;
+        white-space: pre-line;
+    }
+    .monte div h3{
+        padding-left: 0px;
+    }
+    .monte .izquierda p{
+        padding-left: 7px;
+        font-size: 18px;
+        margin-left: 6%;
+        max-width: 85%;
+        text-align: justify;
+    }
+    .monte div h2,h3{
+        text-align: start;
+        margin-left: 22%;
+        font-weight: 600;
+    }
+    .iconos-sociales{
+        padding-top: 14px;
+        height: 100px;        
+    }
+    .iconos-sociales a i{
+        color: #42dca3;
+        border: solid 2px #42dca3;
+        border-radius: 50%;
+        padding-top: 13px;
+        margin-left: 6px;
+        height: 60px;
+        width: 60px;
+    }
+    .monte div .iconos-sociales{
+        padding-left: 40px;
+        padding-right: 22%;
+    }   
+    .botton-social{
+        min-height: 100px;
+        margin-bottom: 100px;
+    }
+    .botton-social button{
+        margin-top: 3%;
+    }
+    .botton-contacto{
+        margin-right: 80%;
+    }
+    .botton-contrato{
+        margin-left: 50%;
+    }
+    .monte div .botton-social{
+        margin-top: 0px;
+    }
+    .monte div .botton-social .botton-contrato{
+        border: solid 3px #42dca3;
+        background-color: #42dca3;
+        box-shadow: 1px 1px 5px 2px #42dca3;
+        border-radius: 24px;
+        margin-top: 12px;
+        margin-left: 10%;
+        width: 80px;
+        height: 39px;
+    }
+    .monte div .botton-social button a{
+        text-decoration: none;
+        color:black;
+        font-weight: 600;
+    }
+    .monte div .botton-social .botton-contacto{
+        border: solid 3px #42dca3;
+        background-color: black;    
+        box-shadow: 1px 1px 5px 2px #42dca3;    
+        border-radius: 24px;
+        margin-top: 12px;
+        margin-left: 0px;
+        width: 100px;
+        height: 45px;
+    }
+    .monte div .botton-social .botton-contacto a{
+        color: #42dca3;
+    }    
+    .monte div .botton-social .botton-contacto:hover, .monte div .botton-social .botton-contrato:hover{
+        /**background: linear-gradient(to left, #42dca3 50.1%, black 50%) right;
+        transition: .2s ease-out;
+        background-size: 200%;**/
+        box-shadow: 0px 0px 30px 5px #42dca3;
+        background-color: #42dca3;
+        width: 105px;
+        height: 50px;
+    }
+    .monte div .botton-social .botton-contacto:hover > a{/***(EL > x selecciona al elemento hijo)***/
+        color: black;
+    }
+    .monte .derecha{
+        max-width: 600px;
+    }
+    .monte .derecha div{
+        margin-top: 12%;
+        margin-bottom: 12%;
+        margin-left: 4%;
+    }
+    .monte .derecha div img{
+        border: solid 0.5px #42dca3;
+        background-color: #42dca3;
+        height: 350px;
+        border-radius: 50%;
+    }
+    .monte .derecha div img:hover{
+        border: solid 3px #42dca3;
+        background-color: #42dca3;
+        height: 400px;
+        box-shadow: 0px 0px 30px 12px #42dca3; 
+    }
+    /***--------------------------------***/
+
+    /***********************EDUCACION***********************/
+    /**IZQUIERDA**/
+    .educacion{
+        background-color: black;
+    }
+    .educacion  .h3text{
+        margin-left: 0px;
+        margin-bottom: 0px;
+        padding-top: 120px;
+        padding-bottom: 30px;
+        height: 230px;
+    }
+    .educacion .h3text h3{
+        margin-left: 0px;
+        margin-right: 12px;
+        text-align: center;
+        font-size: 52px;
+        color: white;
+        width: 360px;
+    }
+    .educacion  .h3text h3:hover{
+        border-radius: 20px;
+        font-size: 62px;
+        color: white;
+    }    
+    .educacion .izquierda div{
+        margin-bottom: 2px;
+        height: 300px;
+    }
+    .educacion .izquierda div h5{
+        text-align: end;
+        color: white;
+        margin-right: 5%;
+    }
+    .educacion .izquierda div div{
+        border-radius: 30px;
+        box-shadow: 0px 0px 10px 2px #42dca3; 
+        border: solid 3px #42dca3;
+        text-align: end;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 5%;
+        height: 65%;
+        width: 93%;
+    }
+    .educacion .izquierda div div:hover{ /**!importante(se logro el efecto sin afectar a los otros elementos)**/
+        height: 66%;
+        width: 94%;
+        margin-top: 18px;
+        box-shadow: 0px 0px 10px 5px #42dca3; 
+    }
+    .educacion .izquierda div div h3{
+        height: 55px;
+        text-align:justify;
+        font-size: 20px;
+        color: white;
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 0px;
+        padding-top: 0px;
+    }
+    .educacion .izquierda div div p{
+        text-align: justify;
+        color: white;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    /**CENTRO**/    
+    .educacion .linea-central{
+        display: none;
+    }
+    .educacion .linea-central div{
+        border-radius: 50%;
+        box-shadow: 0px 0px 5px 2px #42dca3;
+    }
+    .educacion .linea-central div:hover{
+        border-radius: 50%;
+        box-shadow: 0px 0px 30px 5px #42dca3;
+    }    
+    /**DERECHA**/
+    .educacion .derecha{
+        margin-right: 0px;
+    }
+    .educacion .derecha div{
+        margin-bottom: 20px;
+        margin-left: 3.5px;
+        margin-top: 0px;
+        height: 300px;
+    }
+    .educacion .derecha div h5{
+        text-align: start;
+        color: white;
+        margin-left: 5%;
+    }
+    .educacion .derecha div div{
+        border-radius: 30px;
+        box-shadow: 0px 0px 10px 2px #42dca3; 
+        border: solid 3px #42dca3;
+        text-align: end;
+        width: 98%;
+        height: 65%;
+    }
+    .educacion .derecha div div:hover{ /**!importante(se logro el efecto sin afectar a los otros elementos)**/
+        width: 99%;
+        height: 70%;
+        margin-top: 18px;
+        box-shadow: 0px 0px 10px 5px #42dca3; 
+    }
+    .educacion .derecha div div h3{
+        text-align:justify;
+        font-size: 20px;
+        color: white;
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 0px;
+        padding-top: 12px;
+        height: 55px;
+    }
+    .educacion .derecha div div p{
+        text-align: justify;
+        color: white;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 10px;
+    }    
+    /*******************************************************/
+
+    /*-*CONTACTO*-*/
+    .contacto{
+        height: 100vh;
+        background-color: black;
+    }
+    .contacto div{
+        height: 14vh;
+        max-width: 700px;
+        margin-bottom: 50px;
+    }
+    .contacto div div{
+        height: 40px;
+    }
+    .contacto div div div{
+        padding-top: 7px;
+        margin-right: 0vh;
+        border-style: solid;
+    }
+    .contacto div div div i{
+        font-size: 11px;
+    }
+    .contacto div div div a{
+        font-size: 11px;
+    }
+    /**FOMRULARIO**/
+    .formulariocontacto{
+        background-color: black;
+        height: 658px;
+    }
+    .formulariocontacto div{
+        height: 100%;
+    }
+    .formulariocontacto div fieldset input{
+        border-style: none;
+        border-radius: 4px;
+        height: 30px;
+        color: transparent;
+    }
+    .formulariocontacto div fieldset input:hover{
+        color: black;
+    }
+    .formulariocontacto div fieldset h3{
+        font-size: 18px;
+        padding-top: 0px;
+        text-align: left;
+    }
+    .formulariocontacto div button{
+        height: 40px;
+        padding-top: 6px;
+    }
+    .formulariocontacto .moneda{
+        height: 100px;
+        text-align: left;
+    }
+    .formulariocontacto .moneda div{
+        height: 20px; 
+    }
+    .formulariocontacto .terminos{
+        height: 20px;
+        text-align: left;
+    }
+    .footer{
+        background-color: black;
+        height: 100px;
+    }
+    .footer a{
+        font-size: 14px;
+    }
+    /*-----------------------------------------------*/
+    /************----------Efectos--------************/
+    .verde-texto{
+        color: var(--verde-agua);
+        text-decoration: none;
+        font-weight: 600;
+    }
+    .verde-texto:hover{
+        text-decoration: none;
+        color: var(--verde-agua);
+        text-shadow: 0.5px 0.5px 3.5px var(--verde-agua);
+    }
+    .hola{
+        color: blue;
+        text-decoration: dashed;
+    }
+    .efecto-verde{
+        border-style: solid;
+        border-color: var(--verde-agua);
+        border-width: 0.5px;
+        color: var(--verde-agua);
+        background-color: transparent;
+    }
+    .efecto-verde:hover{
+        border-style: none;
+        color: black;
+        background-color: var(--verde-agua);
+    }
+    .iconos-sociales a i:hover{
+        color: white;
+        background-color:#42dca3;
+        border: solid 2px #42dca3;
+        box-shadow: 1px 1px 5px 2px #42dca3;
+        padding-top: 17px;
+        height: 65px;
+        width: 65px;
+    }
+    /*Typewriter Effect*/
+    .typewriter{
+        min-width: 80px;
+        max-width: 75%;
+        overflow: hidden;
+        border-right: .15em solid #42dca3; /* The typwriter cursor */
+        white-space: nowrap; /* Keeps the content on a single line */
+        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+        letter-spacing: .15em; /* Adjust as needed */
+        animation: 
+          typing 5s steps(50, end),
+          blink-caret 1s step-end infinite;
+    }
+      
+    /* The typing effect */
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 75% }
+    }
+      
+      /* The typewriter cursor effect */
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: #42dca3; }
+    }
+
+}
+@media all and (min-width: 768px) {
+    .texto-central div h1{
+        font-size: 100PX;
+    }
+    /***++++++++++++++Monte+++++++++++++****/
+    .monte div .iconos-sociales{
+        padding-left: 10%;
+        padding-right: 35%;
+    }
+    .monte .derecha div img{
+        height: 500px;
+    }  
+    .monte .derecha div img:hover{
+        height: 550px;
+    }
+    /***************************************/
+
+    /***************EDUCACION**************/
+    .educacion .h3text h3{
+        font-size: 55px;
+        width: 500px;
+    }
+    .educacion .h3text h3:hover{
+        font-size: 65px;
+    }
+    .educacion .linea-central{
+        display:block;
+        margin-left: 12px;
+        max-width: 80px;
+    }
+    .educacion .linea-central div{
+        min-height: 100%;
+        background-color: #42dca3;
+        width: 7px;
+        margin-left: 45%;
+        height: 920px;
+    }
+    /**IZQUIERDA**/
+    .educacion .izquierda{
+        margin-left: 0px;
+        padding-right: 16px;
+    }
+    .educacion .izquierda div{
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-bottom: 30px;
+        height: 250px;
+    }
+    .educacion .izquierda div h5{
+        margin-right: 0%;
+    }
+    .educacion .izquierda div div{
+        margin-left: 5%;
+        margin-right: 0%;
+        padding-top: 5%;
+        height: 75%;
+    }
+    .educacion .izquierda div div:hover{
+        width: 95%;
+        height: 77%;
+    }
+    /**DERECHA**/
+    .educacion .derecha{
+        margin-left: 0px;
+    }
+    .educacion .derecha div{
+        margin-bottom: 20px;
+        margin-left: 0px;
+        padding-left: 0px;
+        margin-bottom: 30px;
+    }
+    .educacion .derecha div h5{
+        margin-right: 5%;
+    }
+    .educacion .derecha div div{
+        margin-left: 5%;
+        margin-right: 5%;
+        padding-top: 5%;
+        width: 90%;
+        height: 73%;
+    }
+    .educacion .derecha div div:hover{ /**!importante(se logro el efecto sin afectar a los otros elementos)**/
+        width: 93%;
+        height: 76%;
+        margin-top: 15px;
+        box-shadow: 0px 0px 10px 7px #42dca3; 
+    }
+    /*************************************/
+
+    /***---------EFECTOS---------***/
+    .typewriter{
+        min-width: 87px;
+        max-width: 77.2%;
+    }
+    /******************************/    
+}
+@media all and (min-width: 992px) {
+    
+    /***-------------MONTE(DISPOSITVOS CON MAYOR DIMENSION DE PANTALLA)------------***/
+    .monte{
+
+    }
+    .monte div{
+
+    }
+    .monte div h2{
+        padding-top: 200px;
+        margin-left: 20%;
+    }
+    .monte .izquierda h2{
+        padding-top: 250px;
+    }
+    .monte div p{
+        font-size: 18px;
+        max-width: 80%;
+        margin-right: 0px;
+        margin-left: 0px;
+        text-align: start;
+    }
+    .iconos-sociales {
+        max-height: 6vh;
+    }
+    .monte div .iconos-sociales{
+        padding-right: 40%;
+    }  
+    .monte .derecha div{
+        max-height: 500px;
+        margin-top: 200px;
+    }
+    .monte .derecha div img{
+        height: 80%;
+    }  
+    .monte .derecha div img:hover{
+        height: 85%;
+    }    
+    /**--------------------------------**/
+
+    /***EDUCACION(DISPOSITVOS CON MAYOR DIMENSION DE PANTALLA)***/
+    .educacion .h3text h3{
+        font-size: 62px;
+        width: 410px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .educacion .h3text h3:hover{
+        font-size: 72px;
+    }
+    .educacion .linea-central{
+        max-width: 80px;
+    }
+    .educacion .linea-central div{
+        height: 900px;
+    }
+    /**IZQUIERDA**/
+    .educacion .izquierda{
+        max-width: 600px;
+        padding-right: 0px;
+    }
+    .educacion .izquierda div{
+        padding-right: 22px;
+        margin-bottom: 38px;
+    }
+    /**DERECHA**/
+    .educacion .derecha{
+        margin-left: 0px;
+        max-width: 600px;
+        padding-left: 0px;
+    }
+    .educacion .derecha div{
+        margin-bottom: 40px;
+    }
+    .educacion .derecha div div{
+        width: 90%;
+        height: 65%;
+    }
+    .educacion .derecha div div:hover{ /**!importante(se logro el efecto sin afectar a los otros elementos)**/
+        width: 93%;
+        height: 73%;
+        margin-top: 15px;
+    }
+    /***********************************************************/
+
+    .menu a{
+        padding-left: 10%;
+    }
+    .menu div{
+        padding-right: 17%;
+    }
+    .texto-central div{
+        max-width: 900px;
+    }
+    /**MONTE**/
+    .monte{
+        height: 55vh;
+    }
+    .monte div{
+        height: 50vh;
+    }/**
+    .monte div{
+        max-width: 720px;
+        margin-bottom: 200px;
+        height: 28vh;
+        padding-bottom: 0%;
+    }**/
+    .descuento{
+        height: 40vh;
+    }
+    /**CONTACTO*/
+    .contacto{
+        height: 80vh;
+    }
+    .contacto div{
+        margin-bottom: 0px;
+    }
+    .contacto div div div{
+        padding-right: 1.5vh;
+        margin-left: 1.5vh;
+    }
+    .contacto div div div i{
+        font-size: 18px;
+    }
+    .contacto div div div a{
+        font-size: 18px;
+    }
+    /**FORMULARIO**/
+    .formulariocontacto{
+        height: 80vh;
+    }
+    .formulariocontacto div{
+        height: 50vh;
+    }
+    .formulariocontacto div fieldset input{
+        height: 35px;
+    }
+    .formulariocontacto div fieldset h3{
+        padding-top: 10px;    
+    }
+    /***---------EFECTOS---------***/
+    .typewriter{
+        min-width: 100px;
+        max-width: 64%;
+        margin-right: 25%;
+    }
+    /******************************/
+}

@@ -687,30 +687,24 @@
     @media all and (min-width: 1024px) {
         .monte{
             height: 1000px; /* For 100% screen height */
-            background-color: blueviolet;
         }
         .monte .izquierda{
-            background-color: red;
             height: 700px;
         }
         .monte .izquierda h2{
             padding-top: 20%;
         }
         .monte .izquierda .iconos-sociales{
-            background-color: aqua;
             min-height: 80px;
         }
         .monte .izquierda .botton-social{
-            background-color: green;
             min-height: 100px;
         }
         .monte .derecha{
-            background-color: blue;
             height: 700px;
         }
         .monte .derecha div{
             height: 90%;
-            background-color:cadetblue;
             padding-top: 15px;
             margin-top: 0px;
             margin-bottom: 0px;

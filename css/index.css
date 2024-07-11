@@ -227,6 +227,9 @@
         width: 94%;
         margin-top: 18px;
         box-shadow: 0px 0px 10px 5px #42dca3; 
+        background: linear-gradient(to left, #42dca3 50.1%, black 50%) right;
+        transition: .2s ease-out;
+        background-size: 200%;
     }
     .educacion .izquierda div div h3{
         height: 55px;
@@ -256,7 +259,7 @@
     }
     .educacion .linea-central div:hover{
         border-radius: 50%;
-        box-shadow: 0px 0px 30px 5px #42dca3;
+        box-shadow: 0px 0px 15px 5px #42dca3;
     }    
     /**DERECHA**/
     .educacion .derecha{
@@ -285,7 +288,10 @@
         width: 99%;
         height: 70%;
         margin-top: 18px;
-        box-shadow: 0px 0px 10px 5px #42dca3; 
+        box-shadow: 0px 0px 10px 5px #42dca3;
+        background: linear-gradient(to left, #42dca3 50.1%, black 50%) right;
+        transition: .2s ease-out;
+        background-size: 200%; 
     }
     .educacion .derecha div div h3{
         text-align:justify;
@@ -539,12 +545,6 @@
 @media all and (min-width: 992px) {
     
     /***-------------MONTE(DISPOSITVOS CON MAYOR DIMENSION DE PANTALLA)------------***/
-    .monte{
-
-    }
-    .monte div{
-
-    }
     .monte div h2{
         padding-top: 200px;
         margin-left: 20%;

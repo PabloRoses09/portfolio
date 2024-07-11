@@ -684,4 +684,28 @@
         margin-right: 25%;
     }
     /******************************/
+    @media all and (min-width: 1024px) {
+        .monte{
+            height: 100vh; /* For 100% screen height */
+            background-color: blueviolet;
+        }
+        .monte .izquierda{
+            background-color: red;
+            height: 90%;
+        }
+        .monte .izquierda h2{
+            padding-top: 20%;
+        }
+        .monte .izquierda .iconos-sociales{
+            background-color: aqua;
+            min-height: 80px;
+        }
+        .monte .izquierda .botton-social{
+            background-color: green;
+            min-height: 100px;
+        }
+        .monte .derecha{
+            background-color: blue;
+        }
+    }
 }

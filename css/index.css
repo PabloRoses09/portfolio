@@ -686,12 +686,12 @@
     /******************************/
     @media all and (min-width: 1024px) {
         .monte{
-            height: 100vh; /* For 100% screen height */
+            height: 1000px; /* For 100% screen height */
             background-color: blueviolet;
         }
         .monte .izquierda{
             background-color: red;
-            height: 90%;
+            height: 700px;
         }
         .monte .izquierda h2{
             padding-top: 20%;
@@ -706,6 +706,21 @@
         }
         .monte .derecha{
             background-color: blue;
+            height: 700px;
+        }
+        .monte .derecha div{
+            height: 90%;
+            background-color:cadetblue;
+            padding-top: 15px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+        }
+        .monte .derecha div img{
+            height: 95%;
+        }
+        .monte .derecha div img:hover{
+            height: 99%;
         }
     }
 }

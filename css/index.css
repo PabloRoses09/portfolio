@@ -314,67 +314,100 @@
     }    
     /*******************************************************/
 
-    /*-*CONTACTO*-*/
-    .contacto{
-        height: 100vh;
+    /***************************(SKILLS)*************************/
+    .skills{
+        background-color:black;
+    }
+    /**
+    .skills{
+        overflow:hidden;
+        height: 97vh;
+    }
+    .skills:hover{
+        height: auto;
+    }**/
+    .skills h2{
+        margin-bottom: 40px;
+        margin-top: 50px;
+        font-size: 52px;
+        color: white;
+        font-weight: 900;
+    }
+    .skills .skills-container{
+        padding: 0px;
+        height: 80%;
+        width: 90%;
         background-color: black;
     }
-    .contacto div{
-        height: 14vh;
-        max-width: 700px;
-        margin-bottom: 50px;
+    #ch{
+        display: none;
     }
-    .contacto div div{
-        height: 40px;
+    #ch:checked ~ .content{
+        display: block;
     }
-    .contacto div div div{
-        padding-top: 7px;
-        margin-right: 0vh;
-        border-style: solid;
+    #ch:checked ~ .button-read-div{
+        display: none;
     }
-    .contacto div div div i{
-        font-size: 11px;
+    .content{
+        display: none;
+        margin: 0px;
+        padding: 0px;
     }
-    .contacto div div div a{
-        font-size: 11px;
+    .button-read-more{
+        cursor: pointer;
+        border: solid 3px #42dca3;
+        background-color: black;    
+        box-shadow: 1px 1px 5px 2px #42dca3;    
+        border-radius: 24px;
+        margin-top: 12px;
+        margin-left: 12px;
+        padding-top: 8.5px;
+        height: 50px;
+        width: 100px;
+        font-weight: 900;
+        color: #42dca3;
     }
-    /**FOMRULARIO**/
-    .formulariocontacto{
-        background-color: black;
-        height: 658px;
-    }
-    .formulariocontacto div{
-        height: 100%;
-    }
-    .formulariocontacto div fieldset input{
-        border-style: none;
-        border-radius: 4px;
-        height: 30px;
-        color: transparent;
-    }
-    .formulariocontacto div fieldset input:hover{
+    .button-read-more:hover{
+        box-shadow: 0px 0px 30px 5px #42dca3;
+        background-color: #42dca3;
+        width: 105px;
+        height: 50px;
         color: black;
+        font-weight: 900;
     }
-    .formulariocontacto div fieldset h3{
-        font-size: 18px;
-        padding-top: 0px;
-        text-align: left;
+    .button-read-div:has(.button-read-more){
+        background-color:transparent;
+        border-style: none;
     }
-    .formulariocontacto div button{
-        height: 40px;
-        padding-top: 6px;
+    .skills .skills-container .top div{
+        background-color:#42dca3;
+        height: 16vh;
+        border-radius: 7px;
+        width: 95%;
+        margin-bottom: 12px;
     }
-    .formulariocontacto .moneda{
-        height: 100px;
-        text-align: left;
+    .skills .skills-container .bottom div{
+        background-color:#42dca3;
+        height: 16vh;
+        border-radius: 7px;
+        width: 90%;
+        margin-bottom: 12px;
+        margin-left: 4.9%;
     }
-    .formulariocontacto .moneda div{
-        height: 20px; 
+    .skills .skills-container .top div h4, .skills .skills-container .bottom div h4{
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+        font-family: 'Montserrat', sans-serif;
     }
-    .formulariocontacto .terminos{
-        height: 20px;
-        text-align: left;
+    .skills .skills-container .top div i,.skills .skills-container .bottom div i{
+        font-size: 11vh;
+        color: white;
+        margin-top: 8px;
     }
+    /***************************++++++++*************************/
+
+
     .footer{
         background-color: black;
         height: 100px;
@@ -534,6 +567,41 @@
         box-shadow: 0px 0px 10px 7px #42dca3; 
     }
     /*************************************/
+
+    /***************************(SKILLS)*************************/
+    #ch{
+        display: none;
+    }
+    #ch:checked ~ .content{
+        display: inline;
+    }
+    .content{
+        display:flex;
+    }
+    label{
+        display: none;
+    }
+    .skills .skills-container{
+        width: 98%;
+    }
+    .skills .skills-container .top div{
+        width:18%;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        height: 14vh;
+    }
+    .skills .skills-container .bottom{
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+    .skills .skills-container .bottom div{
+        height: 14vh;
+        width: 18%;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    /***********************************************************/
 
     /***---------EFECTOS---------***/
     .typewriter{
@@ -715,6 +783,10 @@
         }
         .monte .derecha div img:hover{
             height: 99%;
+        }
+        .educacion .h3text{
+            height: 200px;
+            padding-top: 12px;
         }
     }
 }

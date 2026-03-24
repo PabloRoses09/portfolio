@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Juego del Gato</title>
+    <link rel="stylesheet" href="css/Gato.css">
+</head>
+<body>
+    <h1>Juego del Gato</h1>
+
+    <!-- Canvas para el tablero -->
+    <canvas id="gameCanvas" width="300" height="300"></canvas>
+
+    <!-- Mensajes de turno y resultado -->
+    <p id="status">Presiona "Iniciar Juego" para comenzar</p>
+
+    <!-- Botones -->
+    <button id="startBtn">Iniciar Juego</button>
+    <button id="resetBtn">Reiniciar Juego</button>
+
+    <!-- Scripts: primero la lógica, luego la GUI -->
+    <script src="js/GatoRutinas.js"></script>
+    <script src="js/GatoGUI.js"></script>
+</body>
+</html>

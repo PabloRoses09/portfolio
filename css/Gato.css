@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#gameCanvas {
+    border: 2px solid #333;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+#status {
+    font-weight: bold;
+    font-size: 18px;
+}
